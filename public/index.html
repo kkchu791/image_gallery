@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vault Take Home Test</title>
+
+  <!-- Stylesheets -->
+  <link href="assets/css/gallery.css" rel="stylesheet">
+  <link href="assets/css/sidebar.css" rel="stylesheet">
+  <link href="assets/css/lightbox.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body id="gallery-body">
+
+  <!-- Sidebar Nav -->
+
+  <nav id="sidebar-nav">
+    <div>
+      <a class="nav-toggle-btn">
+        <i class="fa fa-arrow-circle-left"></i>
+      </a>
+    </div>
+
+    <div class="expand-collapse-all">
+      <div class="expand-all">Expand All</div>
+      <div class="collapse-all">Collapse All</div>
+    </div>
+
+    <ul class="accordion">
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> search</a></li>
+          <div class="accordion-panel">
+            <p>Keyword:</p>
+            <input type="text" id="search"/>
+          </div>
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> color</a></li>
+             <div class="accordion-panel">
+              <p id="green">Green</p>
+              <p id="red">Red</p>
+              <p id="yellow">Yellow</p>
+              <p id="cyan">Cyan</p>
+              <p id="blue">Blue</p>
+              <p id="purple">Purple</p>
+              <p id="pink">Pink</p>
+              <p id="white">White</p>
+              <p id="orange">Orange</p>
+              <p id="brown">Brown</p>
+            </div>
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> orientation</a></li>
+          <div class="accordion-panel">
+            <p id="portrait">Portrait</p>
+            <p id="landscape">Landscape</p>
+          </div>
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> collections</a></li>
+          <div class="accordion-panel">
+            <p>Hello World</p>
+          </div>
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> metadata</a></li>
+            <div class="accordion-panel">
+              <p>Hello World</p>
+            </div>
+      <li class="accordion-control"><a href="#"><i class="fa fa-arrow-circle-right"></i> file type</a></li>
+          <div class="accordion-panel">
+            <p>Hello World</p>
+          </div>
+    </ul>
+  </nav>
+
+  <!--Photo Gallery -->
+  <div id="images"></div>
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="mustache/mustache.js"></script>
+  <script src="assets/coffee/gallery.js"></script>
+  <script src="assets/coffee/sidebar.js"></script>
+  <script src="assets/coffee/accordion.js"></script>
+  <script src="assets/coffee/search.js"></script>
+  <script src="assets/coffee/color.js"></script>
+  <script src="assets/coffee/orientation.js"></script>
+</body>
+</html>

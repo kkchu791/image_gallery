@@ -1,0 +1,40 @@
+#gallery-body {
+  background: #000;
+  font-family: lato;
+}
+
+#images {
+  padding: 20px;
+}
+
+div.outer-layer {
+  width: 210px;
+  height: 210px;
+  background: rgba(50, 50, 50, 0.8);;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 40px;
+}
+
+div.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-image {
+  border: 2px solid gray;
+  max-height: 152px;
+}
+
+.grid-image:hover {
+  border: 2px solid #428bca;
+}
+
+.fa{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  margin: 0 0 10px 10px;
+}
